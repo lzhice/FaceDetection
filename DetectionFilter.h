@@ -1,5 +1,5 @@
-#ifndef QCVDETECTFILTER_H
-#define QCVDETECTFILTER_H
+#ifndef DETECTIONFILTER_H
+#define DETECTIONFILTER_H
 
 #include <QAbstractVideoFilter>
 #include <QObject>
@@ -100,4 +100,4 @@ private:
     std::vector<cv::Rect> runMatchTemplate(const cv::Mat &mat, const cv::Mat &templ);
     DetectionFilter* m_filter;
 };
-#endif // QCVDETECTFILTER_H
+#endif // DETECTIONFILTER_H

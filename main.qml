@@ -86,7 +86,7 @@ Rectangle {
         }
     }
 
-    CvDetectFilter
+    DetectionFilter
     {
         id: testFilter
         orientation: Screen.orientation

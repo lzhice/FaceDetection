@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
-    qmlRegisterType<DetectionFilter>("com.facedetection.classes", 1, 0, "CvDetectFilter");
+    qmlRegisterType<DetectionFilter>("com.facedetection.classes", 1, 0, "DetectionFilter");
 
     const QUrl url(QStringLiteral("qrc:/main.qml"));
     QQuickView view(url);
