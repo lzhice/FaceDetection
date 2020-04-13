@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>SimpleButton.qml</file>
+        <file>FilterControls.qml</file>
+        <file>data/haarcascade_frontalface_default.xml</file>
+        <file>data/template.jpg</file>
+    </qresource>
+</RCC>
